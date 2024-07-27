@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     border: none;
     margin: 0%;
@@ -10,13 +10,13 @@
 
 }
 
-body{
+body {
     height: 153vh;
     /* width: 100vw; */
-    background: linear-gradient(to bottom,rgba(41,41,41,255),rgba(40,40,40,255),rgba(39,39,39,255),rgba(38,38,38,255),rgba(37,37,37,255),rgba(36,36,36,255),rgba(35,35,35,255),rgba(34,34,34,255),rgba(33,33,33,255),rgba(32,32,32,255),rgba(31,31,31,255),rgba(30,30,30,255),rgba(29,29,29,255),rgba(28,28,28,255),rgba(27,27,27,255),rgba(26,26,26,255),rgba(25,25,25,255),rgba(24,24,24,255),rgba(23,23,23,255),rgba(22,22,22,255),rgba(21,21,21,255),rgba(20,20,20,255),rgba(19,19,19,255),rgba(18,18,18,255),rgba(17,17,17,255),rgba(16,16,16,255),rgba(15,15,15,255),rgba(14,14,14,255),rgba(13,13,13,255),rgba(12,12,12,255),rgba(11,11,11,255),rgba(10,10,10,255),rgba(9,9,9,255),rgba(8,8,8,255),rgba(7,7,7,255),rgba(6,6,6,255),rgba(5,5,5,255),rgba(4,4,4,255),rgba(3,3,3,255),rgba(2,2,2,255),rgba(1,1,1,255),rgba(0,0,0,255));
+    background: linear-gradient(to bottom, rgba(41, 41, 41, 255), rgba(40, 40, 40, 255), rgba(39, 39, 39, 255), rgba(38, 38, 38, 255), rgba(37, 37, 37, 255), rgba(36, 36, 36, 255), rgba(35, 35, 35, 255), rgba(34, 34, 34, 255), rgba(33, 33, 33, 255), rgba(32, 32, 32, 255), rgba(31, 31, 31, 255), rgba(30, 30, 30, 255), rgba(29, 29, 29, 255), rgba(28, 28, 28, 255), rgba(27, 27, 27, 255), rgba(26, 26, 26, 255), rgba(25, 25, 25, 255), rgba(24, 24, 24, 255), rgba(23, 23, 23, 255), rgba(22, 22, 22, 255), rgba(21, 21, 21, 255), rgba(20, 20, 20, 255), rgba(19, 19, 19, 255), rgba(18, 18, 18, 255), rgba(17, 17, 17, 255), rgba(16, 16, 16, 255), rgba(15, 15, 15, 255), rgba(14, 14, 14, 255), rgba(13, 13, 13, 255), rgba(12, 12, 12, 255), rgba(11, 11, 11, 255), rgba(10, 10, 10, 255), rgba(9, 9, 9, 255), rgba(8, 8, 8, 255), rgba(7, 7, 7, 255), rgba(6, 6, 6, 255), rgba(5, 5, 5, 255), rgba(4, 4, 4, 255), rgba(3, 3, 3, 255), rgba(2, 2, 2, 255), rgba(1, 1, 1, 255), rgba(0, 0, 0, 255));
 }
 
-.center{
+.center {
     height: 143vh;
     margin: 2% 26%;
     background-color: #121212;
@@ -24,14 +24,14 @@ body{
     border-radius: 7px;
 }
 
-.center .logo{
+.center .logo {
     display: flex;
     justify-content: center;
     margin-top: 3.5%;
     margin-right: 1.2%;
 }
 
-.text{
+.text {
     display: flex;
     justify-content: center;
     color: white;
@@ -42,17 +42,18 @@ body{
     margin-top: 1.8%;
 }
 
-.types{
-   margin-left: 28%;
-   border: none;
-   margin-top: 4%;
+.types {
+    margin-left: 28%;
+    border: none;
+    margin-top: 4%;
 }
-.types button:hover{
+
+.types button:hover {
     cursor: pointer;
 
 }
 
-.types button{
+.types button {
     border: 1px solid grey;
     width: 62%;
     border-radius: 25px;
@@ -67,31 +68,32 @@ body{
     margin-top: 1.5%;
     /* padding: 1.4%; */
 }
-.types button:hover{
+
+.types button:hover {
     border: 1px solid white;
 
 }
 
-button p{
+button p {
 
     margin-left: 16%;
 
 }
 
-button img{
+button img {
     margin-left: 6%;
 }
 
-hr{
+hr {
     border: 1px solid grey;
     width: 74%;
     margin-top: 6%;
     margin-left: 13%;
     border-image: initial;
-    border-top: rgb(41,41,41);
+    border-top: rgb(41, 41, 41);
 }
 
-.details{
+.details {
     display: flex;
     flex-direction: column;
     margin-left: 28%;
@@ -99,18 +101,19 @@ hr{
     border-width: fit-content;
 }
 
-.details label{
+.details label {
     font-size: 0.85rem;
     font-weight: 700;
     margin-bottom: 1.1%;
     margin-top: 1%;
 }
-.details img{
-        margin-left: 54%;
-        margin-top: -9.2%;
+
+.details img {
+    margin-left: 54%;
+    margin-top: -9.2%;
 }
 
-.details input{
+.details input {
     border: 1px solid grey;
     width: 62%;
     padding: 2.4% 3%;
@@ -123,15 +126,16 @@ hr{
 
 }
 
-.details input:hover{
+.details input:hover {
     border: 1px solid white;
 }
-.details2{
+
+.details2 {
     display: flex;
     margin-top: 5%;
 }
 
-.details2 button{
+.details2 button {
     background-color: #1ed760;
     width: 32px;
     margin-left: 28%;
@@ -142,7 +146,7 @@ hr{
 
 }
 
-.dot{
+.dot {
     width: 14px;
     height: 14px;
     background-color: #121212;
@@ -150,12 +154,12 @@ hr{
     margin-right: -15%;
 }
 
-.details2 small{
+.details2 small {
     font-size: 0.7rem;
     margin-left: 2%;
 }
 
-.login{
+.login {
     width: 45%;
     border-radius: 25px;
     font-size: 15px;
@@ -170,11 +174,11 @@ hr{
     margin-left: 28%;
 }
 
-.login:hover{
+.login:hover {
     transform: scale(1.05);
 }
 
-.fp{
+.fp {
     display: flex;
     justify-content: center;
     margin-top: 5%;
@@ -183,13 +187,13 @@ hr{
     margin-bottom: -1.5%;
 }
 
-.fp:hover{
+.fp:hover {
     color: #1ed760;
     cursor: pointer;
 
 }
 
-.foot{
+.foot {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -198,17 +202,17 @@ hr{
     font-weight: 500;
 }
 
-.foot a{
+.foot a {
     margin-left: 1%;
     font-weight: 600;
 }
 
-.foot a:hover{
+.foot a:hover {
     color: #1ed760;
     cursor: pointer;
 }
 
-footer{
+footer {
     background-color: #121212;
     font-size: 0.75rem;
     padding: 2%;
@@ -217,8 +221,7 @@ footer{
     /* margin-top: 6%; */
 }
 
-footer span{
+footer span {
     text-decoration: underline;
     color: grey;
 }
-

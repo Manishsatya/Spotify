@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
-*{
-        background-color: #121212;
-        box-sizing: border-box;
-        margin: 0%;
-        color: white;
-        font-family: "Red Hat Display", sans-serif;
-        /* border: 1px solid red; */
+* {
+    background-color: #121212;
+    box-sizing: border-box;
+    margin: 0%;
+    color: white;
+    font-family: "Red Hat Display", sans-serif;
+    /* border: 1px solid red; */
 }
 
-.logo{
+.logo {
     display: flex;
     justify-content: center;
     margin-top: 1.6%;
 }
 
-.bar{
+.bar {
     margin-left: 36%;
     margin-top: 0.8%;
     width: 435px;
@@ -23,13 +23,13 @@
     background-color: rgb(105, 101, 101);
 }
 
-.minibar{
+.minibar {
     width: 66.6%;
     height: 2.6px;
     background-color: #1ed760;
 }
 
-.arrow{
+.arrow {
     font-size: 2.5rem;
     margin-left: 37%;
     color: grey;
@@ -40,15 +40,16 @@
     margin-right: 2%;
 }
 
-.arrow a{
+.arrow a {
     color: grey;
     text-decoration: none;
 }
-.arrow a:hover{
+
+.arrow a:hover {
     color: white;
 }
 
-.step .one{
+.step .one {
     font-size: 1rem;
     margin-top: 1%;
     margin-left: 10%;
@@ -57,7 +58,7 @@
 
 }
 
-.step .two{
+.step .two {
     border: 1px solid transparent;
     width: 100%;
     font-size: 1rem;
@@ -66,26 +67,27 @@
     font-weight: 700;
 }
 
-.form{
+.form {
     margin-top: 2%;
     display: flex;
     flex-direction: column;
     margin-left: 40%;
 }
 
-.form .l1{
-    color: white; 
+.form .l1 {
+    color: white;
     font-size: 0.875rem;
-    font-weight: 700; 
+    font-weight: 700;
 }
 
-.form .l2{
+.form .l2 {
     color: gray;
     font-size: 14px;
     font-weight: 600;
 
 }
-.form .top{
+
+.form .top {
     margin-top: 1%;
     border: 1px solid grey;
     width: 34.5%;
@@ -94,28 +96,28 @@
     margin-bottom: 2%;
 }
 
-.dob .year{
+.dob .year {
     width: 10%;
     padding-left: 2%;
     font-size: 1rem;
     font-weight: 400;
 }
 
-.dob .month{
+.dob .month {
     border: 1px solid grey;
     width: 16%;
     font-size: 16px;
     margin-left: 0.5%;
 }
 
-.dob select{
+.dob select {
     border: none;
     width: 16px;
     height: 16px;
     margin-left: -3%;
 }
 
-.dob .day{
+.dob .day {
     margin-left: 1.3%;
     width: 7%;
     padding-left: 2%;
@@ -123,35 +125,36 @@
     font-weight: 400;
 }
 
-.select{
+.select {
     display: flex;
     flex-direction: row;
     margin-top: 1%;
     flex-wrap: wrap;
 }
-.select2{
+
+.select2 {
     display: flex;
     flex-direction: row;
     margin-top: 1%;
 }
 
-.select p{
+.select p {
     margin-left: 0.5%;
     margin-right: 2%;
 }
 
-.select2 p{
+.select2 p {
     margin-left: 0.5%;
     margin-right: 2%;
 }
 
-.radio{
+.radio {
     width: 13px;
     margin-right: 1%;
-    color: #121212 !important; 
+    color: #121212 !important;
 }
 
-.form button{
+.form button {
     background-color: #1ed760;
     color: #121212;
     border: none;
@@ -163,7 +166,7 @@
     font-weight: 800;
 }
 
-footer{
+footer {
     display: flex;
     border: 1px solid transparent;
     width: 20%;
@@ -173,6 +176,6 @@ footer{
     margin-bottom: 2%;
 }
 
-footer p{
+footer p {
     color: rgb(169, 168, 168);
 }
