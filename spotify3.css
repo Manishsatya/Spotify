@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+        background-color: #121212;
+        box-sizing: border-box;
+        margin: 0%;
+        color: white;
+        font-family: "Red Hat Display", sans-serif;
+        /* border: 1px solid red; */
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.6%;
+}
+
+.bar{
+    margin-left: 36%;
+    margin-top: 0.8%;
+    width: 435px;
+    height: 2.5px;
+    background-color: rgb(105, 101, 101);
+}
+
+.minibar{
+    width: 66.6%;
+    height: 2.6px;
+    background-color: #1ed760;
+}
+
+.arrow{
+    font-size: 2.5rem;
+    margin-left: 37%;
+    color: grey;
+    margin-top: 0.8%;
+    display: flex;
+    border: 1px solid transparent;
+    width: 25%;
+    margin-right: 2%;
+}
+
+.arrow a{
+    color: grey;
+    text-decoration: none;
+}
+.arrow a:hover{
+    color: white;
+}
+
+.step .one{
+    font-size: 1rem;
+    margin-top: 1%;
+    margin-left: 10%;
+    font-weight: 600;
+    color: gray;
+
+}
+
+.step .two{
+    border: 1px solid transparent;
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 3%;
+    margin-left: 10%;
+    font-weight: 700;
+}
+
+.form{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+}
+
+.form .l1{
+    color: white; 
+    font-size: 0.875rem;
+    font-weight: 700; 
+}
+
+.form .l2{
+    color: gray;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.form .top{
+    margin-top: 1%;
+    border: 1px solid grey;
+    width: 34.5%;
+    height: 48px;
+    border-radius: 4px;
+    margin-bottom: 2%;
+}
+
+.dob .year{
+    width: 10%;
+    padding-left: 2%;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.dob .month{
+    border: 1px solid grey;
+    width: 16%;
+    font-size: 16px;
+    margin-left: 0.5%;
+}
+
+.dob select{
+    border: none;
+    width: 16px;
+    height: 16px;
+    margin-left: -3%;
+}
+
+.dob .day{
+    margin-left: 1.3%;
+    width: 7%;
+    padding-left: 2%;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.select{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    flex-wrap: wrap;
+}
+.select2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+}
+
+.select p{
+    margin-left: 0.5%;
+    margin-right: 2%;
+}
+
+.select2 p{
+    margin-left: 0.5%;
+    margin-right: 2%;
+}
+
+.radio{
+    width: 13px;
+    margin-right: 1%;
+    color: #121212 !important; 
+}
+
+.form button{
+    background-color: #1ed760;
+    color: #121212;
+    border: none;
+    width: 34.5%;
+    border-radius: 25px;
+    margin-top: 5%;
+    padding: 1.7%;
+    font-size: inherit;
+    font-weight: 800;
+}
+
+footer{
+    display: flex;
+    border: 1px solid transparent;
+    width: 20%;
+    margin-left: 40%;
+    font-size: 0.75rem;
+    margin-top: 1.5%;
+    margin-bottom: 2%;
+}
+
+footer p{
+    color: rgb(169, 168, 168);
+}

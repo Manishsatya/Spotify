@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+        background-color: #121212;
+        box-sizing: border-box;
+        margin: 0%;
+        color: white;
+        font-family: "Red Hat Display", sans-serif;
+        /* border: 1px solid red; */
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.6%;
+}
+
+.bar{
+    margin-left: 36%;
+    margin-top: 0.8%;
+    width: 435px;
+    height: 2.5px;
+    background-color: rgb(105, 101, 101);
+}
+
+.minibar{
+    width: 33.3%;
+    height: 2.6px;
+    background-color: #1ed760;
+}
+
+.arrow{
+    font-size: 2.5rem;
+    margin-left: 37%;
+    color: grey;
+    margin-top: 0.8%;
+    display: flex;
+    border: 1px solid transparent;
+    width: 25%;
+    margin-right: 2%;
+}
+
+.arrow a{
+    color: grey;
+    text-decoration: none;
+}
+.arrow a:hover{
+    color: white;
+}
+
+.step .one{
+    font-size: 1rem;
+    margin-top: 1%;
+    margin-left: 10%;
+    font-weight: 600;
+    color: gray;
+
+}
+
+.step .two{
+    border: 1px solid transparent;
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 3%;
+    margin-left: 10%;
+    font-weight: 700;
+}
+
+.fill{
+    display: flex;
+    flex-direction: column;
+    margin-left: 39.5%;
+    margin-top: 2%;
+    font-size: 0.875rem;
+    font-weight: 650;
+}
+
+.fill input{
+    border: 1px solid grey;
+    width: 34.8%;
+    height: 48px;
+    border-radius: 4px;
+    margin-bottom: 1.4%;
+    margin-top: 1%;
+}
+.fill img{
+    margin-left: 30%;
+    margin-top: -5.2%;
+}
+
+.rules{
+    margin-top: 3%;
+}
+
+.row{
+    display: flex;
+    margin-top: 1%;
+}
+
+.dot{
+    width: 12px;
+    height: 12px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-right: 1%;
+    margin-top: 0.2%;
+}
+
+.rules .button{
+    display: inline-block;
+    padding: 14px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #1ed760;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 2%;
+    width: 34.5%;
+    color: #121212;
+    font-size: inherit;
+    font-weight: 700;
+}
+
+footer{
+    display: flex;
+    border: 1px solid transparent;
+    width: 20%;
+    margin-left: 40%;
+    font-size: 0.75rem;
+    margin-top: 9.5%;
+    margin-bottom: 2%;
+}
+
+footer p{
+    color: grey;
+}
